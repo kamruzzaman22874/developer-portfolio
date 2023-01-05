@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	background: #fff8f3;
+	background-image: url('./images/header_bg.png'), url('./images/developer.png');
+	background-repeat: no-repeat;
+	background-position: bottom right, left;
+}
+.btn-primary {
+	background: #fd6e0a;
+	border: none;
+	border-radius: 5px;
+	height: 64px;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px;
+}
+.btn-contact {
+	background-color: antiquewhite;
+	margin-left: 5px;
+	padding: 20px 40px;
+	border: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 700;
+	border-radius: 5px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 200px;
+	padding: 50px 0;
+}
+nav ul {
+	display: flex;
+}
+nav li {
+	list-style: none;
+	margin-right: 50px;
+}
+nav h2 {
+	font-size: 45px;
+}
+.nav-title {
+	font-weight: 800;
+	font-size: 45px;
+}
+#name-style {
+	color: #fd6e0a;
+}
+.banner {
+	display: flex;
+	align-items: center;
+	margin: 0 200px;
+	margin-bottom: 150px;
+}
+.banner-title {
+	font-weight: 700;
+	font-size: 85px;
+	margin-bottom: 20px;
+}
+.banner-sub-title {
+	font-weight: 600;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.banner-description {
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+main {
+	max-width: 1140px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.about {
+	margin-top: 50px;
+	background: #fff8f3;
+	border-radius: 10px;
+	padding: 130px 150px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 35px;
+}
+.section-description {
+	font-weight: 400;
+	font-size: 18px;
+	color: #757575;
+}
+
+.personal-info {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 20px;
+}
+.info {
+	margin-top: 30px;
+	padding-right: 50px;
+}
+.personal-info h5 {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #757575;
+	font-weight: 400;
+	font-size: 18px;
+}
+.info-details {
+	padding: 130px 150px;
+	margin-bottom: 50px;
+}
+.info-detail-heading {
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	color: #181818;
+	margin-bottom: 30px;
+}
+.info-detail-description {
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #757575;
+}
+.coding-info {
+	display: flex;
+	gap: 24px;
+	background: #ffffff;
+}
+.coding-info img {
+	margin-bottom: 30px;
+}
+
+.coding-info-detail {
+	box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+	border-radius: 5px;
+	padding: 30px;
+}
+.coding-info-detail h3 {
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.coding-info-detail p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #757575;
+	line-height: 28px;
+}
+.my-resume {
+	margin-top: 130px;
+}
+.my-resume h2 {
+	text-align: center;
+	margin-bottom: 113px;
+	font-weight: 700;
+	font-size: 35px;
+	color: #181818;
+}
+.resume-details {
+	display: flex;
+	gap: 30px;
+}
+.resume-details h3 {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 25px;
+	color: #474747;
+}
+.resume-details p {
+	margin-bottom: 30px;
+}
+.resume-details h4 {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #474747;
+}
+.resume-details h5 {
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #757575;
+}
+.resume-details p {
+	font-weight: 400;
+	font-size: 13px;
+	color: #757575;
+	margin-bottom: 50px;
+}
+hr {
+	margin-bottom: 30px;
+}
+#cv-btn {
+	justify-content: center;
+	background: #fd6e0a;
+	border: none;
+	border-radius: 5px;
+	height: 64px;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 500px;
+	margin-bottom: 113px;
+}
+.contact {
+	background: #fff8f3;
+	padding: 120px;
+}
+.contact-info {
+	display: flex;
+	gap: 110px;
+}
+.coding-info p {
+	font-weight: 400;
+	font-size: 16px;
+}
+.contact-info h2 {
+	font-weight: 700;
+	font-size: 30px;
+	color: #181818;
+	margin-bottom: 20px;
+}
+.contact-info p {
+	margin-bottom: 30px;
+}
+.contact-info img {
+	padding-right: 20px;
+}
+.contact-info input,
+textarea{
+	margin-top: 16px;
+    width: 100%;
+	padding: 15px;
+	outline: none;
+	border: none;
+	background: #ffffff;
+	border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-submit{
+    background: #fd6e0a;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px 30px;
+}
