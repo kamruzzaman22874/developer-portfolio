@@ -37,6 +37,8 @@ nav {
 }
 nav ul {
 	display: flex;
+    font-size: 18px;
+    font-weight: 700;
 }
 nav li {
 	list-style: none;
