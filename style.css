@@ -58,6 +58,10 @@ nav h2 {
 	margin: 0 200px;
 	margin-bottom: 150px;
 }
+.banner img{
+    width: 750px;
+    padding-left: 200px;
+}
 .banner-title {
 	font-weight: 700;
 	font-size: 85px;
